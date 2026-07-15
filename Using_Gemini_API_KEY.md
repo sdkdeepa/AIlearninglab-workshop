@@ -1,6 +1,20 @@
 # ADK Codelab (Gemini API Key)
+## Pre Setup 
+Follow the slides for steps: [Slides](https://docs.google.com/presentation/d/19GNvPupJEnrbXKrsydzpp5Jhqb3e3ZfjXd6zg8_M2KU/edit?usp=sharing)
 
-https://codelabs.developers.google.com/adkcourse/instructions
+1. Create a brand new Gmail account ad activate free cloud trial (worth $300)
+2. go to https://console.cloud.google.com/
+3. Click create "Create a project"
+4. Enter project name
+5. Select "No Orginization" under Parent resource
+6. Click "Activate Cloud Shell" on the top right 
+7. Make sure you the terminal shows the project id correctly
+8. You may be asked to 
+8. Click "Open editor" 
+
+
+# Workshop using Gemini API Key
+Codelab link: https://codelabs.developers.google.com/adkcourse/instructions
 
 ## 1. Clone the Repository
 ```bash

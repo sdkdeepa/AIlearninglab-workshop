@@ -13,7 +13,9 @@ Follow the slides for steps: [Slides](https://docs.google.com/presentation/d/19G
 8. You may be asked to 
 8. Click "Open editor" 
 
-# Workshop 
+# Workshop using Vertex AI
+Codelab link: https://codelabs.developers.google.com/adkcourse/instructions
+
 ## 1. Clone the Repository
 ```bash
 git clone https://github.com/cuppibla/adk_tutorial.git
