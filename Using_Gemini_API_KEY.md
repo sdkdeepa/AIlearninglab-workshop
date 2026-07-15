@@ -22,18 +22,19 @@ GOOGLE_GENAI_USE_VERTEXAI=FALSE
 GOOGLE_API_KEY=AIza...
 ```
 
-> **Note:** The free Gemini API key may occasionally return **429 (quota exceeded)** or **404 (model unavailable)** depending on account quota or model availability. If this happens, either use a Gemini API key with available quota or use the Vertex AI version of the codelab.
-
 ## 4. Start ADK
 ```bash
 adk web
 ```
-
 ## 5. Change the port to 8000
 
 ## Agent Selection and Prompts
 1. <strong>a_single_agent</strong>
    Plan a trip from Sunnyvale to San Francisco this weekend, I love food and art.
+
+> **Note:** The free Gemini API key may return **429 (quota exceeded)** or **404 (model unavailable)** depending on account quota or model availability. If this happens, either use a Gemini API key with available quota or use the Vertex AI version of the codelab.
+   ![Error](Screenshots/GeminiAPIKEY.png).
+
 2. <strong>b2_parallel_agent</strong>
    Plan my trip to San Francisco, I want to find some good concert, restaurant and museum.
 3. <strong>b1_sequential_agent</strong>
