@@ -98,9 +98,8 @@ python -u main.py
 Sometimes, killing the terminal and restarting the server works too!
 
 ### MCP Prompts
-- What are the top-rated things to do in Tokyo?
-- Show me the museums in Rome.
-- What can I do in New York for under 25 dollars?
-
-<strong>If you deploy make sure to deactivate it at the end. </strong>
-
+```bash
+What are the top-rated things to do in Tokyo?
+Show me the museums in Rome.
+What can I do in New York for under 25 dollars?
+```
