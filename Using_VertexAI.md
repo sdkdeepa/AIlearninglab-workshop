@@ -171,12 +171,7 @@ gcloud auth application-default login
 gcloud auth application-default print-access-token
 ```
 
-## 5. Verify Vertex AI API is Enabled 
-```bash
-gcloud services list --enabled | grep aiplatform
-```
-
-## 6. Verify the environment and start ADK
+## 5. Verify the environment and start ADK
 
 ```bash
 cloudshell edit .env
