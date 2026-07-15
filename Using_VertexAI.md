@@ -1,5 +1,19 @@
 # ADK Codelab (Vertex AI + Google Cloud)
 
+## Pre Setup 
+Follow the slides for steps: [Slides](https://docs.google.com/presentation/d/19GNvPupJEnrbXKrsydzpp5Jhqb3e3ZfjXd6zg8_M2KU/edit?usp=sharing)
+
+1. Create a brand new Gmail account ad activate free cloud trial (worth $300)
+2. go to https://console.cloud.google.com/
+3. Click create "Create a project"
+4. Enter project name
+5. Select "No Orginization" under Parent resource
+6. Click "Activate Cloud Shell" on the top right 
+7. Make sure you the terminal shows the project id correctly
+8. You may be asked to 
+8. Click "Open editor" 
+
+# Workshop 
 ## 1. Clone the Repository
 ```bash
 git clone https://github.com/cuppibla/adk_tutorial.git
@@ -103,3 +117,90 @@ What are the top-rated things to do in Tokyo?
 Show me the museums in Rome.
 What can I do in New York for under 25 dollars?
 ```
+------
+# Restarting the Vertex AI Environment
+
+If you close Cloud Shell or return later, follow these steps.
+
+## 1. Open Google Cloud Console
+- https://console.cloud.google.com
+- Launch **Cloud Shell**.
+
+## 2. Go to the project and activate the virtual environment
+
+```bash
+cd ~/adk_tutorial
+source .adk_env/bin/activate
+```
+
+## 3. Verify authentication and project
+
+```bash
+gcloud auth list
+```
+
+If required:
+
+```bash
+gcloud auth login
+```
+
+Verify the project:
+
+```bash
+gcloud config get-value project
+```
+
+<strong> If needed:</strong>
+
+```bash
+gcloud config set project YOUR_PROJECT_ID
+```
+
+## 4. Authenticate Application Default Credentials (ADC)
+
+```bash
+gcloud auth application-default login
+```
+
+(Optional)
+
+```bash
+gcloud auth application-default print-access-token
+```
+
+## 5. Verify Vertex AI API is Enabled 
+```bash
+gcloud services list --enabled | grep aiplatform
+```
+
+## 6. Verify the environment and start ADK
+
+```bash
+cloudshell edit .env
+```
+
+```text
+GOOGLE_GENAI_USE_VERTEXAI=TRUE
+GOOGLE_CLOUD_PROJECT=YOUR_PROJECT_ID
+GOOGLE_CLOUD_LOCATION=global
+```
+Make sure to set it to global location.
+
+### Start ADK:
+
+```bash
+adk web
+```
+
+Open the forwarded URL on port **8000**.
+
+### Troubleshooting
+
+If you receive **403 PERMISSION_DENIED** or **Application Default Credentials not found**, run:
+
+```bash
+gcloud auth application-default login
+```
+
+`gcloud auth application-default login` is different from `gcloud auth login`. Both may be required when using Vertex AI.
