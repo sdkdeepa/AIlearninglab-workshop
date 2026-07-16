@@ -16,7 +16,7 @@
 - Memory
 - MCP (Model Context Protocol)
 
-## 🎥 Workshop Recording
+## 🎥 Workshop Recording - Click to watch it on YouTube 
 
 [![Google ADK Masterclass - July 2026](https://img.youtube.com/vi/JhmMuLfwPB0/maxresdefault.jpg)](https://youtu.be/JhmMuLfwPB0)
 
