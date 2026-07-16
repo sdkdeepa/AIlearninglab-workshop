@@ -60,20 +60,13 @@ adk web
 ## 5. Change the port to 8000
 
 ## Agent Selection and Prompts
-1. <strong>a_single_agent</strong>
-   Plan a trip from Sunnyvale to San Francisco this weekend, I love food and art.
-2. <strong>b2_parallel_agent</strong>
-   Plan my trip to San Francisco, I want to find some good concert, restaurant and museum.
-3. <strong>b1_sequential_agent</strong>
-   Find a good sushi near Stanford and tell me how to get there.
-4. <strong>b3_loop_agent</strong>
-   Plan a trip from Sunnyvale to San Francisco today.
-5. <strong>c_custom_agent</strong>
-   Plan a trip from Sunnyvale to San Francisco this weekend, I love food and art. Make sure within budget of 100 dollars.
-6. <strong>d_routing_agent</strong>
-   Plan a trip from Sunnyvale to San Francisco this weekend, I love concert, restaurant and museum.
-7. <strong>e_agent_as_tool</strong>
-   Plan a trip from Sunnyvale to San Francisco this weekend, I love concert, restaurant and museum.
+1. <strong>a_single_agent</strong> - Plan a trip from Sunnyvale to San Francisco this weekend, I love food and art.
+2. <strong>b2_parallel_agent</strong> - Plan my trip to San Francisco, I want to find some good concert, restaurant and museum.
+3. <strong>b1_sequential_agent</strong> - Find a good sushi near Stanford and tell me how to get there.
+4. <strong>b3_loop_agent</strong> - Plan a trip from Sunnyvale to San Francisco today.
+5. <strong>c_custom_agent</strong> - Plan a trip from Sunnyvale to San Francisco this weekend, I love food and art. Make sure within budget of 100 dollars.
+6. <strong>d_routing_agent</strong> - Plan a trip from Sunnyvale to San Francisco this weekend, I love concert, restaurant and museum.
+7. <strong>e_agent_as_tool</strong> - Plan a trip from Sunnyvale to San Francisco this weekend, I love concert, restaurant and museum.
 
 ## Session 6
 Follow Step 8 of the codelab.
